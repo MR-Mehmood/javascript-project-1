@@ -1,20 +1,24 @@
+// section-numbar-2
 
-// Q-num-1 
-var myname = "Wellcome To My Ecommerce Website";
-alert(myname);
+// Q-num-1
+var age = 15; 
+alert("I am " +age+ " years old");
 
 // Q-num-2
-var myname = "Welcome To My\nEcommerce Website";
-alert(myname);
+var visits = 15;
+alert("You have visited this site " + visits + " times.");
 
 // Q-num-3
-var myname = "Welcome To javascript";
-alert(myname);
+var birthYear = 2005; 
+document.write("My birth year is " + birthYear + ".<br>");
+document.write("I am " + (2024 - birthYear) + " years old. <br>");
+
 
 // Q-num-4
-var myname = "Happy Coding\nWellcome To javascript Website";
-alert(myname);
+var visitorName = "Kifal Hamad";
+var productTitle = "T-shirt";
+var quantity = 10;
 
-// Q-num-5
-var myname = "Hi. This Is MEHMOOD I'M Student Of Frendnt Divalpar ";
-alert(myname);
+document.write(visitorName + " ordered " + quantity + " " + productTitle + "(M) on alxzanda Clothing store.");
+
+
